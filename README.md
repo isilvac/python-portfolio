@@ -66,10 +66,23 @@ Desktop applications with graphical user interfaces:
 
 **Installation:**
 1. Clone the repository
-2. Install required dependencies: `pip install -r requirements.txt`
-   - Or install with development dependencies: `pip install -e .[dev]`
-3. Set up environment variables for API integrations
-4. Run individual projects as needed
+2. Install required dependencies:  
+   - Básico: `pip install -r requirements.txt`  
+   - O con dependencias de desarrollo: `pip install -e .[dev]`
+3. También puedes usar el archivo `pyproject.toml` para instalar el entorno con herramientas modernas de Python.
+4. Set up environment variables for API integrations
+5. Run individual projects as needed
+
+**Note:**  
+The file `pyproject.toml` specifies the minimum Python version and project metadata.  
+If usas herramientas como Poetry o pip >= 23.1, puedes instalar con:
+```bash
+pip install .
+```
+o para desarrollo:
+```bash
+pip install -e .[dev]
+```
 
 ## 📝 **Note on Security**
 
@@ -92,4 +105,4 @@ These projects demonstrate:
 
 ---
 
-*Built with Python 3.12+ | Last updated: 2024*
+*Built with Python 3.12+ | Last updated: 2025*
