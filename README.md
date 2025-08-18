@@ -11,17 +11,30 @@ Projects that integrate with external APIs and services:
 - **[Stock Alerts](./apis/stock_alerts/)** - Real-time stock monitoring with Alpha Vantage API, news integration, and WhatsApp alerts
 - **[Spotify Playlist](./apis/spotify_playlist/)** - Billboard Top 100 scraper and Spotify playlist creation
 - **[NutriTracker](./apis/nutritracker/)** - Exercise tracking and nutrition logging with Nutritionix API and Google Sheets
+- **[Kanye Quotes](./apis/kanye_quotes/)** - Interactive quote generator using Kanye West quotes API with Tkinter GUI
 
 ### 🔧 **Automation**
 Automated tasks and workflows:
 
 - **[Birthday Wisher](./automation/birthday_wisher/)** - Automated birthday email sender with personalized messages and quotes
 - **[Mail Merger](./automation/mail_merger/)** - Bulk email personalization tool for mass communications
+- **[Selenium WebDriver](./automation/selenium_webdriver/)** - Web automation projects including Python.org events scraper
+- **[YCombinator News](./automation/ycombinator_news/)** - Automated news aggregator that scrapes top stories and sends daily email summaries
 
 ### 📊 **Data Projects**
 Data processing and analysis projects:
 
 - **[NATO Phonetic Alphabet](./data_projects/nato_phonetic_alphabet/)** - Interactive NATO phonetic alphabet converter
+
+### 🎮 **Games & Interactive Projects**
+Fun and educational games built with Python:
+
+- **[Snake Game](./games/snake/)** - Classic snake game with score tracking and food mechanics
+- **[Pong](./games/pong/)** - Two-player Pong game with paddle controls and scoring system
+- **[Quiz Brain](./games/quiz_brain/)** - Interactive quiz application with question models and scoring
+- **[Quizzler App](./games/quizzler_app/)** - Enhanced quiz app with true/false questions and visual feedback
+- **[US States Game](./games/us_states_game/)** - Educational game for learning US states geography
+- **[Cookie Clicker](./games/cookie_clicker/)** - Automated cookie clicking game using Selenium WebDriver
 
 ### 🖥️ **GUI Applications**
 Desktop applications with graphical user interfaces:
@@ -30,14 +43,30 @@ Desktop applications with graphical user interfaces:
 - **[Password Manager](./gui-apps/password_manager/)** - Secure password generator and manager with JSON storage
 - **[Pomodoro Timer](./gui-apps/pomodoro_timer/)** - Productivity timer with work/break cycles
 
+### 🏗️ **Object-Oriented Programming Projects**
+Projects demonstrating OOP concepts:
+
+- **[Coffee Machine OOP](./oop_projects/coffee_machine/)** - Coffee machine simulation using classes and objects
+- **[Turtle Race](./oop_projects/race/)** - Street crossing game with car management and scoring system
+
+### 🔤 **Basic Projects**
+Fundamental Python concepts and utilities:
+
+- **[Coffee Machine Basic](./basics/coffee_machine/)** - Basic coffee machine program with procedural programming
+- **[Dots Picture](./basics/dots/)** - Image processing and manipulation with dots
+- **[Tkinter Projects](./basics/tkinter/)** - Basic GUI applications including miles to kilometers converter and turtle race betting
+- **[Top Movies Scraper](./basics/top_movies_scraper/)** - Web scraper for extracting top movie lists from Empire Online
+
 ## 🚀 **Technologies & APIs Used**
 
-- **APIs**: Amadeus, Twilio, Spotify, Alpha Vantage, News API, Nutritionix, Sheety
-- **GUI**: Tkinter
+- **APIs**: Amadeus, Twilio, Spotify, Alpha Vantage, News API, Nutritionix, Sheety, Kanye Quotes API
+- **GUI**: Tkinter, Turtle Graphics
 - **Data Processing**: Pandas, CSV, JSON
-- **Web Scraping**: BeautifulSoup
+- **Web Scraping**: BeautifulSoup, Selenium WebDriver
 - **Authentication**: OAuth2, API Keys
 - **Communication**: SMS, Email, WhatsApp
+- **Game Development**: Turtle graphics, Pygame concepts
+- **Web Automation**: Selenium for browser automation
 
 ## 📋 **Features by Project**
 
@@ -46,18 +75,34 @@ Desktop applications with graphical user interfaces:
 - **Stock Alerts**: Stock price tracking, news aggregation, WhatsApp notifications
 - **Spotify Playlist**: Web scraping, playlist creation, music API integration
 - **NutriTracker**: Exercise logging, nutrition tracking, spreadsheet automation
+- **Kanye Quotes**: Interactive quote generator with modern GUI design
 
 ### Automation
 - **Birthday Wisher**: Email automation, template personalization, quote integration
 - **Mail Merger**: Bulk email processing, template customization
+- **Selenium WebDriver**: Web scraping automation, browser control
+- **YCombinator News**: Automated news aggregation and email delivery
 
-### Data Projects
-- **NATO Phonetic**: Interactive alphabet conversion, user input validation
+### Games
+- **Snake**: Classic arcade gameplay with score tracking
+- **Pong**: Two-player competitive gameplay with AI opponent
+- **Quiz Apps**: Interactive learning with various question types
+- **US States Game**: Educational geography learning
+- **Cookie Clicker**: Web automation and game bot development
 
 ### GUI Apps
 - **Flashcard App**: Language learning interface, progress tracking
 - **Password Manager**: Secure password generation, encrypted storage
 - **Pomodoro Timer**: Productivity timer with visual feedback
+
+### OOP Projects
+- **Coffee Machine**: Class-based coffee machine simulation
+- **Turtle Race**: Object-oriented game development with multiple classes
+
+### Basic Projects
+- **Coffee Machine Basic**: Procedural programming fundamentals
+- **Top Movies Scraper**: Web scraping and data extraction
+- **Tkinter Projects**: Basic GUI development concepts
 
 ## 🔧 **Setup & Installation**
 
@@ -96,13 +141,17 @@ This repository contains example projects with API integrations. For production 
 
 These projects demonstrate:
 - API integration and authentication
-- GUI development with Tkinter
+- GUI development with Tkinter and Turtle graphics
 - Data processing and manipulation
-- Web scraping techniques
+- Web scraping techniques with BeautifulSoup and Selenium
 - Automation and workflow optimization
 - File I/O and data persistence
 - Error handling and user input validation
+- Object-oriented programming concepts
+- Game development fundamentals
+- Web automation and browser control
+- Email automation and communication systems
 
 ---
 
-*Built with Python 3.12+ | Last updated: 2025*
+*Built with Python 3.12+ | Last updated: 2025-08-18

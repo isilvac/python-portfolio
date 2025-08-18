@@ -12,6 +12,9 @@ pandas>=2.0.0
 # Web scraping
 beautifulsoup4>=4.12.0
 
+# Web automation and browser control
+selenium>=4.15.0
+
 # Spotify API integration
 spotipy>=2.23.0
 
